@@ -1,3 +1,5 @@
+library("dplyr")
+
 # Load in data on European vaccination by age
 ecdc_vax_age_raw <- read_csv("https://opendata.ecdc.europa.eu/covid19/vaccine_tracker/csv/data.csv") %>% clean_names()
 
